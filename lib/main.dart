@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'file:///C:/Users/Regina/AndroidStudioProjects/primeiro_app_flutter/lib/view/screens/dayQuotesView.dart';
-import 'package:primeiro_app_flutter/presenter/dayQuotesPresenter.dart';
+import 'file:///C:/Users/Regina/AndroidStudioProjects/primeiro_app_flutter/lib/view/screens/jokenPoView.dart';
+import 'package:primeiro_app_flutter/presenter/jokenPoPresenter.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var _title = "Frases do dia";
+    var _title = "JokenPo";
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: _title,

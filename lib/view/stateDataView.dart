@@ -1,9 +1,9 @@
 
-import 'package:primeiro_app_flutter/model/dayQuotesModel.dart';
+import 'package:primeiro_app_flutter/model/jokenPoModel.dart';
 
 class StateDataView {
 
-  void updateQuotes(DayQuotesModel dayQuotesModel){}
+  void result(JokenPoModel jokenPoModel){}
   void initState(){}
 
 }
